@@ -1,10 +1,11 @@
 .sidebar {
   flex: 1;
-  height: calc(100vh - 50px);
-  /* border: 2px solid darkblue; */
+  /* try 100vh if any issue arised*/
+  height: calc(100% - 50px);
   background-color: rgb(247, 247, 255);
   position: sticky;
   top: 50px;
+  /* border: 2px solid darkblue; */
 }
 
 .sidebarWrapper {
@@ -33,7 +34,7 @@
   align-items: center;
   border-radius: 10px;
   margin-left: 5px;
-  /* margin-bottom: 5px; */
+  margin-bottom: 2px;
 }
 
 .sidebarListItem.activate,
