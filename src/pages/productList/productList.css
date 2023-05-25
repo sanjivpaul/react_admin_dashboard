@@ -1,13 +1,8 @@
-.userList {
+.productList {
   flex: 4;
 }
 
-.tableUserList {
-  display: flex;
-  align-items: center;
-}
-
-.tableUserListImg {
+.tableProductListImg {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -15,7 +10,7 @@
   margin-right: 10px;
 }
 
-.userListBtnEdit {
+.productListBtnEdit {
   border: none;
   border-radius: 10px;
   padding: 5px 10px;
@@ -25,7 +20,7 @@
   cursor: pointer;
 }
 
-.userListBtnDeleteIcon{
-    color: #d95087;
-    cursor: pointer;
+.productListBtnDeleteIcon {
+  color: #d95087;
+  cursor: pointer;
 }
