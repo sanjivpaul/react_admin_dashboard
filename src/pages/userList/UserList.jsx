@@ -69,7 +69,7 @@ export default function UserList() {
 
 
     return (
-        <div className="userList">
+        <div className="userList" >
             <DataGrid
                 // this data is come from useState
                 rows={data}

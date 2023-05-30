@@ -29,3 +29,9 @@
     color: #d95087;
     cursor: pointer;
 }
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus, .MuiDataGrid-root .MuiDataGrid-cell:focus {
+  /* outline: solid #3f51b5 1px; */
+  outline: none !important;
+} 
+

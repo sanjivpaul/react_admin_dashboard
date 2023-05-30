@@ -1,7 +1,7 @@
 import React from 'react'
 import "./sidebar.css"
 import {
-    LineStyle, Timeline, TrendingUp, PersonOutline, StorefrontOutlined, AttachMoneyOutlined, AssessmentOutlined, MailOutlineOutlined, DynamicFeedOutlined, ChatBubbleOutlineOutlined, WorkOutlineOutlined, ReportOutlined
+    Timeline, TrendingUp, PersonOutline, StorefrontOutlined, AttachMoneyOutlined, AssessmentOutlined, MailOutlineOutlined, DynamicFeedOutlined, ChatBubbleOutlineOutlined, WorkOutlineOutlined, ReportOutlined, HomeOutlined
 } from "@material-ui/icons"
 import { Link } from 'react-router-dom'
 
@@ -16,12 +16,12 @@ export default function Sidebar() {
                     <ul className="sidebarList">
                         <Link to="/" className='link'>
                             <li className="sidebarListItem activate">
-                                <LineStyle className='sidebarIcon' />
+                                <HomeOutlined color='primary' className='sidebarIcon' />
                                 Home
                             </li>
                         </Link>
                         <li className="sidebarListItem">
-                            <Timeline className='sidebarIcon' />
+                            <Timeline color="success"  className='sidebarIcon' />
                             Analytics
                         </li>
                         <li className="sidebarListItem">
@@ -36,7 +36,7 @@ export default function Sidebar() {
                     <ul className="sidebarList">
                         <Link to="/users" className='link'>
                             <li className="sidebarListItem">
-                                <PersonOutline className='sidebarIcon' />
+                                <PersonOutline  color= "secondary" className='sidebarIcon' />
                                 Users
                             </li>
                         </Link>

@@ -2,6 +2,11 @@
   flex: 4;
 }
 
+.tableProductList {
+    display: flex;
+    align-items: center;
+  }
+
 .tableProductListImg {
   width: 32px;
   height: 32px;
